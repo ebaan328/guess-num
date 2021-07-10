@@ -1,0 +1,4 @@
+//initial brief
+this sketch will consist of a guess the number game, with the warmer/colder system.
+
+I expect to use loops and basic print statements.

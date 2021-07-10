@@ -1,0 +1,2 @@
+todo: verify curly brace placement;
+	  !make sure classes are outside of classes!

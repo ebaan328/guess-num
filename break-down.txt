@@ -1,0 +1,45 @@
+Headline:
+
+Guess num (project #1)
+
+Body: code Breakdown
+
+the game is going to be prompt based, input and output being done through the command line.
+
+multiple variables must be created to store different anwers; that would be 3 per prompt.
+
+methods I plan on using as of the start of the project:
+
+		-print statements(main source of communication with user and game)
+
+		-if statements(for qualification and disqualification functinality)
+
+		-switch statement(different prompts come with different answers)
+
+		-loops(for wrong answer errors)
+
+		-methods(storing & reusing data)
+
+
+prompts should range from 5-10; theyll be stored in a method of their own, or if possible, one method storing all of them.
+
+each prompt will grant 3 tries while giving a warmer/colder alert on wrong anwers when getting closer or farther from the correct answer.
+once 3 tries the user is disqualified. a if statement will be set to once the 3 tries have been used; the user will no longer be able to participate and will have to restart the game by re-entering the initiation password.
+
+the initiation password will be a key word: start.
+
+once the if condition is met (which is start), the game will begin.
+
+welcome message,
+
+instructions,
+
+first prompt,
+
+second prompt,
+
+etc..
+
+classes will be used to distribute the different parts of the program for concept practice.
+
+// !multiple files

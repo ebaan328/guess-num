@@ -1,0 +1,117 @@
+#7/7/21
+
+started working on this last cycle, got the skeleton pretty much done.
+
+now what comes is the execution, of how we're gonna make this all work.
+
+First issue is figuring out, if I should use switch statements or methods, to output prompts.
+	
+	I guess they are both similar, in the sense that they can both cover possible answers;
+	switch statement would use cases, and a method would use if statement variations.
+
+so how about we use both.
+
+after further implementation, the switch statement is a better fit for this multiple case proofing.
+
+the if statements looks unorganized and messy.
+
+switch statements it is.
+
+Now what comes is further skel structuring, 
+this reffers to prompted text(initiation, welcome msg, instructions, && prompt introductions)
+
+so I have to prompt a password request and upon that input is  when the game either starts or ends off the bat.
+
+Ok so for this sit down Ive set up the prompt structure, and set up util methods(passwd init && instructions/welcome msg)
+
+#7/10/21
+
+picking  up where  I left off.
+
+since I dont work on this back to back, I have to rely on notes to see where I left off exactly.
+
+so Ive ran into a little problem here.
+
+Ive kinda messed up the starts and ends to the blocks.
+this is happening in util.cs, and the ony reason its happening is because there are two classes.
+
+And one of  them is inside the other.
+
+so this is just a structure issue.
+ Im going to re-write/structure util.cs; no Im not going to delete what Ive already wrote.
+
+ Im going to just comment everything out and copy and paste. 
+
+doing that now.
+
+did that, now for the prompt structuring.
+
+important notes on this is that I have to pay attention to break and continue, when it comes to case structuring.
+
+lets do this now.
+
+going further into this Im not sure if, how using multiple switch statements work; 
+nor how to reference switch statements within a public class.
+
+but before I deal with referencing,  I have to work out how...
+Im going to proof input.
+
+What Im guessing as of now is to just do it within skele, and then just reference the scripts, and hope  that  it works.
+
+Im gonna try that.
+
+ok, so let me talk.
+
+I have to into the prompt itself. As in communicate the  prompt.
+
+Im going to do that in skele.
+
+once the prompt is introduced, I have to store that input in a variable to later reference it in the prompt cases.
+
+Ive got the base strucuture to that already done;
+
+now I just have to do is create 4 other iterations of them.
+
+and btw, public variables, are actually called global variables.
+
+anyway... Im gonna lay down for a bit, before I continue.
+
+brb in a couple minutes.
+
+well, its been pretty much an hour.
+
+dont regret it at all tho.
+
+needed a break.
+
+anyway,
+
+back to creating global variables.
+
+ok I now have all the global variables set, now I have to structure all my scripts into skele.
+
+that would be implementing the switch statements after the prompt intros.
+
+and  to do that, we have to reference these things from their respective namespaces and classes.
+
+ok so I have everything under their respecive classes inside the main block class.
+
+thats about it for the project, I have no idea if it works tho.
+
+next up will be to push this to git hub.
+
+And I havent used git hub in a long time so lets see how this goes.
+
+but other than that.
+
+thats the project.
+
+I think this isnt necessarily my first...
+
+but I did do this on my own, without any tutorial or anything.
+
+which is good, I pat myself on the back for that.
+
+anyway.
+
+see you on the next.
